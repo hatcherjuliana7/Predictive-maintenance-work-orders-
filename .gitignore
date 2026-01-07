@@ -205,16 +205,3 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-/data_sample/              # synthetic or public sample CSVs
-/src/
-  ingest.py                # load/align/normalize
-  features.py              # rolling stats, slopes
-  detect.py                # anomaly + degradation score
-  explain.py               # text explanations (templates)
-  workorder.py             # outputs work order CSV/PDF
-/app/
-  streamlit_app.py         # upload CSV → results → export work order
-/tests/
-README.md
-requirements.txt
-
